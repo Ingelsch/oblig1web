@@ -1,0 +1,204 @@
+body {
+  font-family:Arial,Helvetica,sans-serif;
+  background-color:#333;
+}
+
+
+header {
+       width:70%;
+       background-color:#fff;
+       color:black;
+       margin-right:auto;
+       margin-left:auto;
+       padding:10px;
+       overflow:hidden;
+}
+
+p {
+  margin:10px;
+}
+
+
+
+figure {
+  float:left;
+}
+
+figcaption {
+  float:left;
+}
+
+img {
+    
+    margin:0px 0px 5px 10px;
+    box-shadow:3px 1px 5px 1px #cccccc;
+    transform:rotate(2.5deg);
+
+}
+
+hr {
+  clear:both;
+}
+
+.hiddenline {
+  clear:both;
+  border: 0px;
+}
+
+.video {
+    width:60%;
+    float:right;
+    
+
+}
+
+.lenker {
+    width:60%;
+    float:right;
+    margin-right:1%;
+    font-size:.8em;
+    background:#323232;
+    padding:30px;
+    border:1px solid #696;
+    border-radius:10px;
+}
+
+.lenker h3 {
+    color:white;
+}
+
+.lenker ul {
+    list-style-type:none;
+}
+
+.lenker li {
+    float:left;
+    margin-right:5px;
+}
+
+.lenker a:link {
+    color:yellow;
+}
+
+.lenker a:visited {
+  color:yellow;
+  background-color:yellow;
+}
+
+.lenker hover{
+  color:red;
+}
+
+.lenker active{
+  color:white;
+}
+
+section {
+       width:70%;
+       background-color:#111;
+       min-height: 100%;
+       color:white;
+       margin-right:auto;
+       margin-left:auto;
+       border-color:black;
+       border-style:solid;
+       border-width:5px;
+       padding:5px;
+}
+
+h1 {
+   font-size:2em;
+   margin:0;
+   padding:0;
+   margin-top:10px;
+}
+
+h2 {
+   font-size:1.6em;
+}
+
+h3 {
+   font-size:1.3em;
+}
+
+div {
+       width:70%;
+       float:left;
+}
+
+div h1 {
+       padding-top:0;
+       line-height:2em;
+}
+
+div h2 {
+       text-transform:uppercase;
+       font-size:1.2em;
+       line-height:1em;
+} 
+
+nav {
+    width:30%;
+    float:right;
+}
+
+
+nav a:visited {
+  color:blue;
+}
+
+nav ul {
+    list-style-type:none;
+}
+
+nav li {
+    float:left;
+    margin-right:5px;
+}
+
+
+
+aside li {
+      list-style-type:square;
+      line-height:2em;
+}
+
+ol li {
+  list-style-type: upper-alpha;
+}
+
+
+.ommeg {
+   padding: 20px;
+   margin: 10px;
+   background-color:#323232; 
+   color: #fff;
+   font-size: 15px;
+   font-weight: bold;
+   line-height: 1.3em;
+   border: 2px ridge #fff;
+   border-radius: 80px;
+   box-shadow: 0 0 0 4px #009930, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+   text-shadow: 1px 3px #009930;
+   font-weight: normal;
+   list-style-type:none;
+}
+
+
+.ommeg:last-of-type {
+      width:70%;
+
+
+}
+
+footer {
+       width:70%;
+       background-color:#fff;
+       color:black;
+       margin-right:auto;
+       margin-left:auto;
+       height:80px;
+       padding:10px;
+       overflow:hidden;
+       
+}

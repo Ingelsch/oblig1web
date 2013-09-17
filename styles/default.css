@@ -1,0 +1,175 @@
+﻿body {
+  font-family:Arial,Helvetica,sans-serif;
+  background-color:#333;
+}
+
+
+header {
+       width:70%;
+       background-color:black;
+       color:white;
+       margin-right:auto;
+       margin-left:auto;
+       padding:10px;
+       overflow:hidden;
+}
+
+p {
+  margin:10px;
+}
+
+
+figure {
+  float:right;
+}
+
+img {
+    float:right;
+    margin:0px 0px 5px 10px;
+    box-shadow:3px 3px 5px 1px #cccccc
+}
+
+hr {
+  clear:both;
+}
+
+.hiddenline {
+  clear:both;
+  border: 0px;
+}
+
+.video {
+    width:60%;
+    float:right;
+    
+
+}
+
+.lenker {
+    width:60%;
+    float:right;
+    margin-right:1%;
+
+    font-size:.8em;
+    background:#eeff99;
+    padding:30px;
+    border:1px solid #696;
+    border-radius:50px;
+}
+
+
+.lenker ul {
+    list-style-type:none;
+}
+
+.lenker li {
+    float:left;
+    margin-right:5px;
+}
+
+.lenker a {
+    color:blue;
+    font-weight:bold;
+}
+
+.lenker a:visited {
+  color:blue;
+}
+
+section {
+       width:70%;
+       background-color:white;
+       min-height: 100%;
+       margin-right:auto;
+       margin-left:auto;
+       border-color:black;
+       border-style:solid;
+       border-width:5px;
+       padding:5px;
+}
+
+h1 {
+   font-size:2em;
+   margin:0;
+   padding:0;
+   margin-top:10px;
+}
+
+h2 {
+   font-size:1.6em;
+}
+
+h3 {
+   font-size:1.3em;
+}
+
+div {
+       width:70%;
+       float:left;
+}
+
+div h1 {
+       padding-top:0;
+       line-height:2em;
+}
+
+div h2 {
+       text-transform:uppercase;
+       font-size:1.2em;
+       line-height:1em;
+} 
+
+nav {
+    width:30%;
+    float:right;
+}
+
+
+nav a:visited {
+  color:blue;
+}
+
+nav ul {
+    list-style-type:none;
+}
+
+nav li {
+    float:left;
+    margin-right:5px;
+}
+
+aside li {
+      list-style-type:square;
+      line-height:2em;
+}
+
+.ommeg {
+      width:70%;
+      margin-right:auto;
+      margin-left:auto;
+      font-size:.8em;
+      background:#eeff99;
+      padding:30px;
+      border:1px solid #696;
+      border-radius:30px;
+      float: right;
+}
+
+
+.ommeg:last-of-type {
+      width:70%;
+
+
+}
+
+footer {
+       width:70%;
+       background-color:black;
+       color:white;
+       margin-right:auto;
+       margin-left:auto;
+       height:80px;
+       padding:10px;
+       overflow:hidden;
+       
+}
